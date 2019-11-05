@@ -1,0 +1,26 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panchepanevski/calculator-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panchepanevski/calculator-js/issues"
+  },
+  "homepage": "https://github.com/panchepanevski/calculator-js#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
