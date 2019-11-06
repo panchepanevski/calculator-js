@@ -1,10 +1,11 @@
 "use strict";
 
-import { sum, divide, multiply } from "./lib/operators";
+import { sum, divide, multiply, countDigits } from "./lib/operators";
 
 const firstInput = document.querySelector("[name=first]");
 const secondInput = document.querySelector("[name=second]");
 const result = document.querySelector("#result");
+const numberLength = document.querySelector("#resultButton");
 
 // Sum
 const sumButton = document.querySelector(".sum");
@@ -29,4 +30,10 @@ multiplyButton.addEventListener("click", function() {
   const firstNumber = parseInt(firstInput.value);
   const secondNumber = parseInt(secondInput.value);
   result.innerHTML = multiply(firstNumber, secondNumber);
+});
+
+// Counting Digits
+
+numberLength.addEventListener("click", function() {
+  resultSecond.innerHTML = countDigits(result.innerHTML);
 });
