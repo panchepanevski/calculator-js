@@ -1,0 +1,17 @@
+.output {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+
+  &__display {
+    height: 180px;
+    width: 400px;
+    background-color: $color-tertiary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+  }
+}
